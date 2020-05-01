@@ -35,7 +35,8 @@ Running
 -------
 
 Full set of options::
-  > python3 example.py -h
+
+  python3 example.py -h
   usage: example.py [-h] [-c COUNT] [-d] -f FILECONFIG [-e EXAMPLE]
 
   optional arguments:
@@ -50,4 +51,5 @@ Full set of options::
   
   
 Example::
+
   python3 example.py --fileconfig=cori --count=10 --example=tasks
