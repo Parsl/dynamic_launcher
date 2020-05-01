@@ -26,7 +26,7 @@ Use script to activate the env::
 
   # source setup_parsl_env.sh
   
-Setup mpi program::
+Set up mpi program::
 
   module load openmpi
   make
