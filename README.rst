@@ -4,9 +4,9 @@ Dynamical launcher examples
 Example code that launches multiple OpenMPI tasks (both single node and multiple nodes)
 within a queue (scheduler) job, running on Cori, by May 1, with three use cases:
 
-1 - program launches a set of tasks
-2 - program launches a set of tasks, when they finish, launches another set
-3 - program asynchronously launches tasks as they are ready
+ 1. program launches a set of tasks
+ 2. program launches a set of tasks, when they finish, launches another set
+ 3. program asynchronously launches tasks as they are ready
 
 Installing
 ----------
