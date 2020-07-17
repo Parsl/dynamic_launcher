@@ -94,10 +94,14 @@ def async_launch(n=10, throttle=4):
         if len(futures) < throttle and n > 0:
             # Launch a mix of single node and 2 node tasks
             print("Launching task")
+            """
             if n%2 == 0:
                 x = mpi_hello(1, 4, n, mock=False)
+                pass
             else:
-                x = mpi_hello(2, 4, n, mock=False)
+                x = mpi_hello(2, 128, n, mock=False)
+            """
+            x = mpi_hello(2, 24, n, mock=False)
             futures.append(x)
             n -= 1
 
@@ -111,7 +115,6 @@ def async_launch(n=10, throttle=4):
             
 
     
-
 
 if __name__ == '__main__':
 
